@@ -110,5 +110,7 @@
         margin-right: 10px;
     }
 
-    
+    .social-networks .btn{
+        width: calc(100% / 6);
+    }
 }
