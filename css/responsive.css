@@ -22,4 +22,9 @@
     .recipe-origin{
         display: contents;
     }
+
+    .recipe-title h2{
+        width: 95%;
+        font-size: 32px;
+    }
 }
