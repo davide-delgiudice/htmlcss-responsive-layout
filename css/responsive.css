@@ -45,4 +45,8 @@
     .social-networks{
         padding: 0px 10px;
     }
+
+    .ads{
+        display: block;
+    }
 }
