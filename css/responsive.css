@@ -1,1 +1,7 @@
 /* Soluzione qui */
+
+.recipe-video img{
+	border: 0;
+    width: 100%;
+    display: block;
+}
