@@ -54,3 +54,15 @@
         margin-right: 10px;
     }
 }
+
+/* modello desktop */
+
+@media screen and (min-width:992px) {
+    .recipe-video img{
+        height: auto;
+    }
+
+    .recipe-title h2{
+        font-size: 40px;
+    }
+}
