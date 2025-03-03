@@ -37,4 +37,12 @@
         width: 33%;
         font-size: 16px;
     }
+
+    .btn{
+        width: calc(100% / 6);
+    }
+
+    .social-networks{
+        padding: 0px 10px;
+    }
 }
