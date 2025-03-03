@@ -27,4 +27,14 @@
         width: 95%;
         font-size: 32px;
     }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li{
+        width: 33%;
+        font-size: 16px;
+    }
 }
