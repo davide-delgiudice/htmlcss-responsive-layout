@@ -100,3 +100,15 @@
         text-align: left;
     }
 }
+
+/* Bonus */
+
+@media screen and (min-width:576px){
+
+    .presentation img{
+        float: left;
+        margin-right: 10px;
+    }
+
+    
+}
