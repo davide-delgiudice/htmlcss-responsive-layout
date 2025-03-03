@@ -20,11 +20,10 @@
     }
 
     .recipe-origin{
-        display: contents;
+        display: inline-block;
     }
 
     .recipe-title h2{
-        width: 95%;
         font-size: 32px;
     }
 
@@ -38,7 +37,7 @@
         font-size: 16px;
     }
 
-    .btn{
+    .social-networks .btn{
         width: calc(100% / 6);
     }
 
