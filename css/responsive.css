@@ -4,8 +4,11 @@
 .recipe-video img{
 	border: 0;
     width: 100%;
-    height: 100%;
     object-fit: cover;
+}
+
+.recipe-video{
+    height: auto;
 }
 
 /* modello tablet */
@@ -57,21 +60,31 @@
 
 /* modello desktop */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) { 
+    
     .recipe-title h2{
         font-size: 40px;
+    }
+
+    .recipe-video{
+        width: 70%;
+    }
+
+    .recipe-info{
+        width: 30%;
     }
 
     .recipe-card{
         display: flex;
     }
 
-    .recipe-info{
-        padding: 17px;
-    }
-
     .quick-notes ul{
         display: inline-block;
+        flex-wrap: nowrap;
+    }
+
+    .quick-notes li{
+        width: 100%;
     }
 
     .social-networks .label{
