@@ -58,9 +58,6 @@
 /* modello desktop */
 
 @media screen and (min-width:992px) {
-    .recipe-video img{
-    }
-
     .recipe-title h2{
         font-size: 40px;
     }
@@ -70,14 +67,23 @@
     }
 
     .recipe-info{
-        padding: 25px;
+        padding: 17px;
     }
 
     .quick-notes ul{
-        display: block;
+        display: inline-block;
     }
 
     .social-networks .label{
         display: inline-block;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    address{
+        text-align: left;
     }
 }
